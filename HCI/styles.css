@@ -1,0 +1,65 @@
+body {
+    width: 80%;
+    max-width:1000px;
+    margin: 0 auto;
+    background-color:rgb(180, 209, 16);
+    font-size: large;
+    }
+    
+    .box #image{
+        height: auto;
+        max-width: 100%;
+        border-radius: 5px;
+        padding: 1em;
+    }
+    
+
+    .box{
+        background-color: black;
+        display:flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        border:1px solid;
+        padding:3px;
+        margin:5px;
+        color:floralwhite;
+    }
+
+    .box ul{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .Navbar{
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: black;
+        flex-wrap: wrap;
+        border: 2px solid;
+        padding: 10px;
+        margin: 10px;
+        position:sticky;
+        top:20px;
+    }
+    a{
+     color: white;
+     background-color: red;
+     border: 1px solid red;
+     padding: 3px;
+     margin: 2px;
+    
+    }
+
+    a:hover{
+        color: black;
+        background-color: blue;
+        border: 1px solid blue;
+        padding: 5px;
+        margin: 5px; 
+    }
+
+
+
+   
