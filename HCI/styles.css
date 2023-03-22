@@ -1,8 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
 body {
     width: 80%;
     max-width:1000px;
     margin: 0 auto;
-    background-color:rgb(180, 209, 16);
+    background-color: #111;
+    min-height: 100vh;
     font-size: large;
     }
     
@@ -60,6 +67,23 @@ body {
         margin: 5px; 
     }
 
+    ul {
+        display:inline-block;
+      }
+      
+      li {
+        display:inline;
+        padding:0 20%; /* try adjusting the side % to give a feel of center aligned.*/
+      }
+
+      h2{
+        color:azure;
+      }
+      h1{
+        color:azure;
+        display: flex;
+        align-items: center;
+      }
 
 
    
