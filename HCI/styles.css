@@ -30,6 +30,7 @@ body {
         padding:3px;
         margin:5px;
         color:floralwhite;
+        font-size: larger;
     }
 
     .box ul{
@@ -52,10 +53,13 @@ body {
     }
     a{
      color: white;
-     background-color: red;
+     background-color: black;
      border: 1px solid red;
      padding: 3px;
      margin: 2px;
+     cursor: pointer;
+     text-decoration: none;
+     
     
     }
 
